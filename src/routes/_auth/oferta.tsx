@@ -11,7 +11,7 @@ function OfertaPage() {
   const [copiado, setCopiado] = useState(false);
 
   function copiarPix() {
-    navigator.clipboard.writeText("91981438267");
+    navigator.clipboard.writeText("Demonstrativo");
     setCopiado(true);
 
     setTimeout(() => {
@@ -49,7 +49,7 @@ function OfertaPage() {
               </p>
 
               <p className="mt-1 text-lg font-semibold">
-                91981438267
+                00000000000 (demonstrativo)
               </p>
 
               <button
